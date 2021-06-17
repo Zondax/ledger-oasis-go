@@ -103,7 +103,7 @@ jobs:
             echo "RELEASE_BRANCH=stable/${GIT_VERSION%.*}.x" >> $GITHUB_ENV
           fi
       - name: Download macOS binaries
-        uses: actions/download-artifact@v2.0.6
+        uses: actions/download-artifact@v2.0.10
         with:
           name: macos-binaries
           path: ../macos-binaries
