@@ -58,7 +58,7 @@ jobs:
         run: |
           make release-build-darwin
       - name: Upload macOS binaries
-        uses: actions/upload-artifact@v2.2.1
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: macos-binaries
           path: dist/*_darwin_amd64/*
